@@ -5,12 +5,24 @@ body {
   background: #f8f9fa;
   color: #222;
 }
-
 header {
-  background: #ffffff;
+  display: flex;
+  align-items: center;  /* vertically center photo + text */
   padding: 40px 20px;
-  text-align: center;
+  background: #ffffff;
   border-bottom: 1px solid #ddd;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;  /* space between photo and text */
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .subtitle {
@@ -39,12 +51,7 @@ h2 {
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
 }
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
+
 .project {
   background: #ffffff;
   padding: 20px;
