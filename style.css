@@ -32,13 +32,24 @@ header {
   margin: 0;                  /* removes extra spacing */
 }
 
+.header-text .tools {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1rem;   /* adjust size as needed */
+  display: inline;    /* keeps tools on one line */
+  color: #555;        /* keep existing color */
+}
+
 .subtitle {
   font-size: 1.2rem;
   margin: 5px 0;
 }
 
 .tools {
-  color: #555;
+  color: #555;          /* keep the gray color */
+  font-weight: bold;     /* make it bold */
+  display: inline;       /* keep everything on one line */
+  font-size: 1rem;       /* adjust size if needed */
 }
 
 .links a {
