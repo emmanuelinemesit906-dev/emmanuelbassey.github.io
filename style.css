@@ -25,19 +25,25 @@ header {
   flex-direction: column;
 }
 
-.header-text h1,
-.header-text .subtitle,
-.header-text .tools {
-  font-weight: bold;          /* makes text bold */
-  margin: 0;                  /* removes extra spacing */
+.header-text h1 {
+  font-weight: bold;
+  font-size: 2.5rem;   /* bigger for hero section */
+  color: #222;         /* dark for contrast */
+  margin: 0 0 10px 0;  /* spacing below */
+}
+
+.header-text .subtitle {
+  font-weight: bold;
+  font-size: 1.2rem;   /* slightly smaller than name */
+  margin: 0 0 5px 0;
 }
 
 .header-text .tools {
   font-weight: bold;
+  font-size: 1rem;
+  display: inline;     /* keep all tools on one line */
+  color: #555;
   margin: 0;
-  font-size: 1rem;   /* adjust size as needed */
-  display: inline;    /* keeps tools on one line */
-  color: #555;        /* keep existing color */
 }
 
 .subtitle {
