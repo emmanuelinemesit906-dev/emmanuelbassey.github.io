@@ -6,7 +6,7 @@ body {
   color: #222;
 }
 header {
-  display: flex;
+  display: flex;  /*aligns image and text horizontally */ 
   align-items: center;  /* vertically center photo + text */
   padding: 40px 20px;
   background: #ffffff;
@@ -23,6 +23,13 @@ header {
 .header-text {
   display: flex;
   flex-direction: column;
+}
+
+.header-text h1,
+.header-text .subtitle,
+.header-text .tools {
+  font-weight: bold;          /* makes text bold */
+  margin: 0;                  /* removes extra spacing */
 }
 
 .subtitle {
