@@ -31,11 +31,6 @@ header {
   color: #222;         /* dark for contrast */
   margin: 0 0 10px 0;  /* spacing below */
 }
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
-}
 
 .download {
   margin-top: 40px;
